@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fluffy Paws and Claws</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Fluffy Paws and Claws Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="footer-logo.jpg" alt="Fluffy Paws and Claws Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-info">
+            <p>© 2024 Fluffy Paws and Claws. All rights reserved.</p>
+            <p>Head Office: 23 Fluffyy Avenue, Pets villa, 868</p>
+            <p>Email: info@fluffypawsandclaws.com</p>
+            <p>Instagram: fluffy_pawsandclaws</p>
+            <p>Phone: 868-456-7890</p>
+        </div>
+    </footer>
+</body>
+<script src="contact.js"></script>
+</html>

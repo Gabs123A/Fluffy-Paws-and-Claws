@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffy Paws and Claws</title>
+    <!-- Additional meta-data for SEO -->
+    <meta name="description" content="Welcome to Fluffy Paws and Claws - Your one-stop shop for all your pet needs">
+    <meta name="keywords" content="pets, pet store, pet products, pet services, grooming, pet care">
+    <!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Fluffy Paws and Claws Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Fluffy Paws and Claws</h1>
+            <p>Your one-stop shop for all your pet needs</p>
+            <a href="products.html" class="cta-btn">Shop Now</a> 
+        </div>
+    </section>
+    <!-- Featured Products Section -->
+    <section class="Featured Products">
+        <!-- Featured product -->
+    </section>
+    <!-- Reviews Section -->
+    <section class="Reviews">
+        <!-- Reviews -->
+    </section>
+    <!-- Channel Section -->
+    <section class="Furry News Channel">
+        <h2>Subscribe to Our Furry News Channel</h2>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="footer-logo.jpg" alt="Fluffy Paws and Claws Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-info">
+            <p>© 2024 Fluffy Paws and Claws. All rights reserved.</p>
+            <p>Head Office: 23 Fluffyy Avenue, Pets villa, 868</p>
+            <p>Email: info@fluffypawsandclaws.com</p>
+            <p>Instagram: fluffy_pawsandclaws</p>
+            <p>Phone: 868-456-7890</p>
+        </div>
+    </footer>
+</body>
+<script src="styles.js"></script>
+</html>

@@ -1,0 +1,177 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2 
+{
+    font-weight: normal;
+}
+
+h1 
+{
+    font-size: 3rem;
+}
+
+h2 
+{
+    font-size: 2rem;
+}
+
+p 
+{
+    margin-bottom: 1.5rem;
+}
+
+a 
+{
+    color: #1074edf4;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+button, input[type="submit"] 
+{
+    background-color: #ebeceebb;
+    color: #6d15d9bd;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover 
+{
+    background-color: #06274a;
+}
+
+/* Header Styles */
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #f9f5f5c6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo 
+{
+    width: 2rem;
+    height: 3rem; 
+
+}
+
+nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li 
+{
+    margin-right: 2rem;
+}
+
+/* Hero Section Styles */
+.hero 
+{
+    height: 100vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3a2b61;
+}
+
+.hero-content 
+{
+    max-width: 40rem;
+}
+
+.cta-btn 
+{
+    margin-top: 2rem;
+}
+
+/* Featured Products Section Styles */
+.featured-products 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 1.5rem;
+}
+
+.products-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1.5rem;
+}
+
+/* Channel Section Styles */
+.FurryNewsChannel 
+{
+    padding: 3rem 1.5rem;
+    background-color: #481f4c;
+}
+
+/* Footer Section Styles */
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer-content 
+{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo 
+{
+    width: 1rem;
+    height: 0rem;
+}
+
+footer nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+footer nav ul li 
+{
+    margin-right: 1.5rem;
+}
+
+.footer-info 
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.footer-info p {
+    margin-bottom: 0rem;
+}
